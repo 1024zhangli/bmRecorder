@@ -2,11 +2,29 @@
 <view class="container">
   <view class="header">
     <button class="start" size="mini">
-      开始
+      start
     </button>
-    <view class="timer"></view>
+    <button class="start" size="mini">
+      end
+    </button>
+    <view class="timer">120:00</view>
   </view>
   <view class="scoreboard">
+    <view class="personInfo">
+      <view class="name info-border">xxxx xxx</view>
+      <view class="country info-border">yyyyyyyyyyyy</view>
+    </view>
+    <view class="score-row">
+      <view class="score info-border">11</view>
+      <view class="add info-border">+</view>
+      <view class="subtract info-border">-</view>
+    </view>
+    <view class="operations">
+      <view >1</view>
+      <view >2</view>
+      <view >3</view>
+      <view >4</view>
+    </view>
   </view>
   <view class="scoreboard">
   </view>
